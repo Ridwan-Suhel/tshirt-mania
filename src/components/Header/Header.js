@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
@@ -7,19 +7,19 @@ const Header = () => {
       <nav>
         <ul className="flex gap-5 justify-center">
           <li>
-            <Link to="/home">Home</Link>
+            <CustomLink to="/home">Home</CustomLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <CustomLink to="/about">About</CustomLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <CustomLink to="/contact">Contact</CustomLink>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <CustomLink to="/blog">Blog</CustomLink>
           </li>
           <li>
-            <Link to="/login">Log in</Link>
+            <CustomLink to="/login">Log in</CustomLink>
           </li>
         </ul>
       </nav>
