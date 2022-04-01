@@ -15,6 +15,8 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+
+      {/* 54 - 3[completed] vdo */}
     </div>
   );
 }
